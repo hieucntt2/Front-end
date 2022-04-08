@@ -1,0 +1,149 @@
+.main{
+    background-color: #f3f3f3;
+}
+.bg-main{
+    width: 100%;
+    height: 35rem;
+    overflow: hidden;
+    margin-bottom: 3rem;
+}
+.bg-main img{
+    width: 100%;
+    height: 100%;
+}
+.classify ul li{
+    margin-right: 2.5rem;
+    color: #bd945f;
+    font-size: .9rem;
+    font-family: Gotham-Medium;
+    cursor: pointer;
+}
+.classify ul li:first-child{
+    color: #2c2e53;
+    pointer-events: none;
+}
+.classify__arrange{
+    position: relative;
+}
+.arrange__fade{
+    cursor: pointer;
+}
+.arrange__fade p{
+    margin: 0 0.5rem 0;
+    font-family: Gotham-Medium;
+}
+.arrange__fade i{
+   margin-bottom: .3rem;
+}
+.arrange__info{
+    position: absolute;
+    bottom: 0rem;
+    right: 0;
+    transform: translateY(100%);
+    border: 1px solid #bd945f;
+    padding: 0.5rem 1rem;
+    width: 12rem;
+    background-color: #fff;
+    z-index: 1;
+    display: none;
+}
+.arrange__info__item{
+    cursor: pointer;
+}
+.arrange__info__item i{
+    color: #bd945f;
+    position: absolute;
+    margin-top: 0.3rem;
+    display: none;
+}
+.arrange__info__item span{
+    font-size: .9rem;
+    font-family: Gotham-Medium;
+    margin-left: 1.5rem;
+}
+.arrange__info__item.active i{
+    display: block;
+}
+.product{
+    background-color: #fff;
+    padding: 2rem;
+    margin-top: 1rem;
+}
+
+.product h3 {
+    color: #2c2e53;
+    width: fit-content;
+    position: relative;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    font-family: Gotham-Ultra;
+}
+
+.product h3::after {
+    position: absolute;
+    content: '';
+    bottom: -.5rem;
+    left: 0;
+    width: 50%;
+    height: 7px;
+    background-color: #bd945f;
+}
+.product__item {
+    text-align: center;
+}
+
+.product__item__img {
+    width: 100%;
+    height: 14rem;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+
+.product__item__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.product__item a {
+    color: #2c2e53;
+    text-transform: uppercase;
+    font-family: Gotham-Ultra;
+    margin: 0;
+}
+
+.product__item__icon i {
+    color: #bd945f;
+    font-size: .7rem;
+}
+
+.product__item span {
+    color: #888;
+    font-family: Gotham-Medium;
+    font-size: .7rem;
+}
+
+.product__item p {
+    color: #000;
+    font-family: Gotham-Ultra;
+}
+
+.product__pagination ul li {
+    padding: .3rem .8rem;
+    background-color: #d6d4d4;
+    color: #fff;
+    margin: 0 .5rem;
+    font-family: Gotham-Medium;
+}
+
+.product__pagination ul li:hover {
+    background-color: #bd945f;
+    color: #000;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.product__pagination ul li.active {
+    background-color: #bd945f;
+    color: #000;
+}

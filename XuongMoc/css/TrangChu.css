@@ -1,0 +1,450 @@
+/* banner */
+.banner {
+    background-image: url('../images/banner.png');
+    height: 40rem;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.banner__info {
+    width: 100%;
+    height: 100%;
+    padding: 5rem 3.5rem;
+}
+
+.banner__info h1 {
+    font-family: Gotham-Ultra;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.banner__info h1:nth-child(1) {
+    color: #2c2e53;
+}
+
+.banner__info h1:nth-child(2) {
+    color: #bd945f;
+}
+
+.banner__info p {
+    width: 50%;
+    font-family: Gotham-Medium;
+    margin-top: 1rem;
+}
+
+.banner__info button {
+    background-color: #bd945f;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: Gotham-Ultra;
+    padding: .7rem 1.5rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+/* products */
+.products {
+    width: 100%;
+    background-color: #f3f3f3;
+    position: relative;
+}
+
+.products__listItem {
+    background-color: #fff;
+    position: absolute;
+    top: -3rem;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 2rem 0;
+}
+
+.products__item {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.products__item__img {
+    width: 10rem;
+    height: 10rem;
+    overflow: hidden;
+}
+
+.products__item__img img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.products__item a {
+    color: #2c2e53;
+    font-family: Gotham-Ultra;
+}
+
+/* Slide */
+.product__slide h3 {
+    color: #2c2e53;
+    padding-top: 30rem;
+    width: fit-content;
+    margin: auto;
+    position: relative;
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+    font-family: Gotham-Ultra;
+}
+
+.product__slide h3::after {
+    position: absolute;
+    content: '';
+    bottom: -.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    height: 7px;
+    background-color: #bd945f;
+}
+
+.slide__item {
+    text-align: center;
+}
+
+.slide__item__img {
+    width: 100%;
+    height: 14rem;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+
+.slide__item__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slide__item h6 {
+    color: #2c2e53;
+    text-transform: uppercase;
+    font-family: Gotham-Ultra;
+    margin: 0;
+}
+
+.slide__item__icon i {
+    color: #bd945f;
+    font-size: .7rem;
+}
+
+.slide__item span {
+    color: #888;
+    font-family: Gotham-Medium;
+    font-size: .7rem;
+}
+
+.slide__item p {
+    color: #000;
+    font-family: Gotham-Ultra;
+}
+
+#carouselExampleControls {
+    padding: 0 2rem;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: #bd945f;
+    border-radius: 50%;
+    top: 30%;
+}
+
+.carousel-control-prev {
+    left: -1.5rem;
+}
+
+.carousel-control-next {
+    right: -1.5rem;
+}
+
+.aboutUs {
+    width: 100%;
+    background-image: url('../images/ve-chung-toi/bg-about-us.jpg');
+    background-repeat: no-repeat;
+    padding: 2rem 0;
+    position: relative;
+}
+
+.aboutUs>.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #000;
+    opacity: .8;
+}
+
+.aboutUs h3 {
+    color: #fff;
+    font-family: Gotham-Ultra;
+    text-transform: uppercase;
+    position: relative;
+    width: fit-content;
+    margin: 5rem auto 3rem;
+}
+
+.aboutUs h3::after {
+    position: absolute;
+    content: '';
+    bottom: -0.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    height: 7px;
+    background-color: #bd945f;
+}
+
+.aboutUs__img {
+    width: 100%;
+    height: 20rem;
+    padding: 0 1rem 0 2rem;
+    overflow: hidden;
+}
+
+.aboutUs__img img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.aboutUs__info {
+    padding: 0 2rem 0 1rem;
+}
+
+.aboutUs__info h5 {
+    text-transform: uppercase;
+    color: #fff;
+    font-family: Gotham-Medium;
+    letter-spacing: 1px;
+}
+
+.aboutUs__info p {
+    color: #fff;
+    font-size: .7rem;
+    margin: 1rem 0;
+}
+
+.aboutUs__list .aboutUs_item {
+    width: 18%;
+    position: relative;
+    margin-right: 2.5rem;
+}
+
+.aboutUs_item a {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    font-size: .8rem;
+    text-align: center;
+    color: #fff;
+    display: block;
+    width: 100%;
+}
+
+.why_item {
+    padding: 1rem;
+}
+
+.why_item__info {
+    background-color: #fff;
+    padding: .5rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.why_item__info img {
+    width: 5rem;
+    height: 5rem;
+    margin-right: 1rem;
+}
+
+.why_item__info p {
+    margin: 0;
+    text-transform: uppercase;
+    color: #bd945f;
+    font-family: Gotham-Ultra;
+}
+
+.why_item__info span {
+    color: #000;
+    font-family: Gotham-Ultra;
+    font-size: .7rem;
+}
+
+/* news + doitac */
+.news h3 {
+    color: #2c2e53;
+    font-family: Gotham-Ultra;
+    text-transform: uppercase;
+    position: relative;
+    width: fit-content;
+    margin: 5rem auto 3rem;
+}
+
+.news h3::after {
+    position: absolute;
+    content: '';
+    bottom: -0.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    height: 7px;
+    background-color: #bd945f;
+}
+
+.news__left {
+    position: relative;
+    background-image: url('../images/tin-tuc/tintuc-1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 30rem;
+    margin-left: 2rem;
+}
+
+.news__left__info {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #bd945f;
+    padding: 1rem 2rem;
+}
+
+.news__left__info a {
+    color: #fff;
+    font-family: Gotham-Medium;
+    font-size: 1.2rem;
+    margin-bottom: .5rem;
+}
+
+.news__left__info p {
+    margin: 0;
+    font-size: .8rem;
+}
+
+.news__right {
+    margin-left: 1rem;
+}
+
+.news__right__item {
+    margin-bottom: 1.5rem;
+}
+
+.news__right__item img {
+    width: 8rem;
+    height: 8rem;
+}
+
+.news__right__item a {
+    color: #bd945f;
+    font-family: Gotham-Medium;
+    font-size: .9rem;
+}
+
+.news__right__item p {
+    margin: 0;
+    font-size: .7rem;
+    color: #000;
+}
+
+.news__right a {
+    color: #bd945f;
+    font-family: Gotham-Medium;
+    text-transform: uppercase;
+}
+
+.partner {
+    width: 100%;
+    margin-bottom: 5rem;
+}
+
+.partner__img {
+    width: 9rem;
+    overflow: hidden;
+}
+
+.partner__img img {
+    width: 100%;
+    object-fit: cover;
+}
+
+/* contact */
+.contact {
+    background-image: url('../images/lienhe-bg.jpg');
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    padding: 5rem 0;
+    background-size: 100%;
+}
+
+.contact__img {
+    position: absolute;
+    left: 2rem;
+    bottom: 4rem;
+    width: 15rem;
+    overflow: hidden;
+}
+
+.contact__img img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.contact__info {
+    margin-left: 10rem;
+}
+
+.contact__info p {
+    margin: 0;
+    color: #fff;
+    font-family: Gotham-Medium;
+    position: relative;
+    margin-right: 10rem;
+    font-size: 1.2rem;
+}
+
+.contact__info p:last-child::after {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: -0.5rem;
+    width: 65%;
+    height: 5px;
+    background-color: #fff;
+}
+.contact__input span{
+    color: #fff;
+    font-size: .7rem;
+    font-family: Gotham-Medium;
+}
+.input input{
+    padding: .5rem 1,5rem;
+    color: #000;
+    outline: none;
+    font-family: Gotham-Medium;
+    font-size: .8rem;
+    width: 20rem;
+    border: none;
+}
+.input button{
+    padding: .5rem 2rem;
+    outline: none;
+    border: none;
+    background-color: #fff;
+    font-size: .8rem;
+    margin-left: 1rem;
+    font-family: Gotham-Medium;
+}
